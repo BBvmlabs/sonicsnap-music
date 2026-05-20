@@ -1,2 +1,2 @@
 # sonicsnap-music
-SonicSnap is a custom-built offline music player application that places a heavy emphasis on audio engineering and visual fidelity. 
+SonicSnap is a custom-built offline music player application that places a heavy emphasis on audio engineering and visual fidelity. Its core features include custom music visualization, Fast Fourier Transform (FFT) logic, metadata extraction for spectrum analyzers, and interactive waveform seekbars. Alongside its robust local playback capabilities, the project roadmap includes integrating cloud-based streaming directly from Google Drive.
