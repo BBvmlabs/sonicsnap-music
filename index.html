@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SonicSnap - Your Music. Uncompromised & Instant.</title>
-    <meta name="description" content="SonicSnap is a gorgeous, high-fidelity music player tailored for absolute control, dynamic audio enhancement, and seamless multi-device flow.">
+    <meta name="description"
+        content="SonicSnap is a gorgeous, high-fidelity music player tailored for absolute control, dynamic audio enhancement, and seamless multi-device flow.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap"
+        rel="stylesheet">
     <!-- Main Style -->
     <link rel="stylesheet" href="index.css">
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/landing/icon.png">
+    <link rel="icon" type="image/svg+xml" href="assets/icon.png">
 </head>
+
 <body>
 
     <!-- Header Navigation -->
     <header class="header" id="navbar">
         <div class="header-container">
             <a href="#" class="logo-link" id="logo-home">
-                <img src="assets/landing/logo.png" alt="SonicSnap Logo" class="logo-img" style="height: 38px; display: block;">
+                <img src="assets/logo.png" alt="SonicSnap Logo" class="logo-img" style="height: 38px; display: block;">
             </a>
             <nav class="nav-menu" id="nav-links">
                 <a href="#features" class="nav-item" id="nav-lnk-features">Features</a>
@@ -46,22 +51,23 @@
                         Your Music. <br><span class="gradient-text">Uncompromised & Instant.</span>
                     </h1>
                     <p class="hero-subtitle animate-fade-in-delayed">
-                        Meet SonicSnap: A gorgeous, high-fidelity music player tailored for absolute control, dynamic audio enhancement, and seamless multi-device flow.
+                        Meet SonicSnap: A gorgeous, high-fidelity music player tailored for absolute control, dynamic
+                        audio enhancement, and seamless multi-device flow.
                     </p>
                     <div class="hero-actions animate-fade-in-delayed" id="hero-cta-group">
-                        <a href="#download" class="btn btn-primary" id="cta-download-hero">
-                            <span>Get Started</span>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-                        </a>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="cta-source-hero">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                            <span>Source Code</span>
+                        <a href="#theme-selector" class="btn btn-primary" id="cta-demo-hero">
+                            <span>Let's Begin!</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 5v14M19 12l-7 7-7-7" />
+                            </svg>
                         </a>
                     </div>
                 </div>
                 <div class="hero-visual animate-scale-in">
                     <div class="mockup-wrapper">
-                        <img src="assets/landing/hero_mockup.png" alt="SonicSnap Mobile and Desktop App Mockup" class="mockup-img" id="hero-mockup-img">
+                        <img src="assets/hero_mockup.png" alt="SonicSnap Mobile and Desktop App Mockup"
+                            class="mockup-img" id="hero-mockup-img">
                         <div class="glowing-effect"></div>
                     </div>
                 </div>
@@ -72,11 +78,14 @@
         <section class="theme-demo-section" id="theme-selector">
             <div class="container text-center">
                 <h2 class="section-title" id="theme-title">🎨 Dynamically Personal Experience</h2>
-                <p class="section-subtitle">SonicSnap analyzes your current track's album art in real-time to generate a fluid, matching color palette. Try clicking an album below to see the landing page adapt!</p>
-                
+                <p class="section-subtitle">SonicSnap analyzes your current track's album art in real-time to generate a
+                    fluid, matching color palette. Try clicking an album below to see the landing page adapt!</p>
+
                 <div class="album-carousel" id="album-selector">
-                    <div class="album-card active" data-primary="#db685e" data-secondary="#170505" data-glow="rgba(219, 104, 94, 0.4)" id="album-pottu">
-                        <div class="album-art" style="background-image: url('assets/landing/album_art.png'); background-size: cover;">
+                    <div class="album-card active" data-primary="#db685e" data-secondary="#170505"
+                        data-glow="rgba(219, 104, 94, 0.4)" id="album-pottu">
+                        <div class="album-art"
+                            style="background-image: url('assets/album_art.png'); background-size: cover;">
                             <span class="play-icon">▶</span>
                         </div>
                         <div class="album-info">
@@ -84,9 +93,11 @@
                             <p>Hozier & Bear McCreary</p>
                         </div>
                     </div>
-                    
-                    <div class="album-card" data-primary="#cfa170" data-secondary="#1a1200" data-glow="rgba(207, 161, 112, 0.4)" id="album-pottu-yesudas">
-                        <div class="album-art" style="background-image: url('assets/landing/album_art.png'); background-size: cover; filter: sepia(0.6) hue-rotate(40deg);">
+
+                    <div class="album-card" data-primary="#cfa170" data-secondary="#1a1200"
+                        data-glow="rgba(207, 161, 112, 0.4)" id="album-pottu-yesudas">
+                        <div class="album-art"
+                            style="background-image: url('assets/album_art.png'); background-size: cover; filter: sepia(0.6) hue-rotate(40deg);">
                             <span class="play-icon">▶</span>
                         </div>
                         <div class="album-info">
@@ -95,8 +106,10 @@
                         </div>
                     </div>
 
-                    <div class="album-card" data-primary="#ff3b30" data-secondary="#1a0505" data-glow="rgba(255, 59, 48, 0.4)" id="album-vishwaroopam">
-                        <div class="album-art art-1" style="background-image: url('assets/landing/album_art.png'); background-size: cover; filter: hue-rotate(20deg) contrast(1.5);">
+                    <div class="album-card" data-primary="#ff3b30" data-secondary="#1a0505"
+                        data-glow="rgba(255, 59, 48, 0.4)" id="album-vishwaroopam">
+                        <div class="album-art art-1"
+                            style="background-image: url('assets/album_art.png'); background-size: cover; filter: hue-rotate(20deg) contrast(1.5);">
                             <span class="play-icon">▶</span>
                         </div>
                         <div class="album-info">
@@ -105,8 +118,10 @@
                         </div>
                     </div>
 
-                    <div class="album-card" data-primary="#00ffcc" data-secondary="#001a14" data-glow="rgba(0, 255, 204, 0.4)" id="album-nightly">
-                        <div class="album-art art-2" style="background-image: url('assets/landing/album_art.png'); background-size: cover; filter: brightness(2) sepia(0.8);">
+                    <div class="album-card" data-primary="#00ffcc" data-secondary="#001a14"
+                        data-glow="rgba(0, 255, 204, 0.4)" id="album-nightly">
+                        <div class="album-art art-2"
+                            style="background-image: url('assets/album_art.png'); background-size: cover; filter: brightness(2) sepia(0.8);">
                             <span class="play-icon">▶</span>
                         </div>
                         <div class="album-info">
@@ -123,44 +138,63 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-title" id="features-title">Designed for Audiophiles</h2>
-                    <p class="section-subtitle">Every feature is crafted to bring you closer to your music, offline or online.</p>
+                    <p class="section-subtitle">Every feature is crafted to bring you closer to your music, offline or
+                        online.</p>
                 </div>
-                
+
                 <div class="features-grid">
                     <!-- Feature 1 -->
                     <div class="feature-card scroll-reveal" id="feat-hi-res">
                         <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5v14M22 9v6M7 8v8M2 10v4"/></svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2v20M17 5v14M22 9v6M7 8v8M2 10v4" />
+                            </svg>
                         </div>
                         <h3>Pure Engineering, Immersive Audio</h3>
-                        <p>Powered by <code>media_kit</code> hardware-accelerated playback pipeline. Enjoy low-latency playback of your FLAC, MP3, WAV, M4A, and AAC files without breaking a sweat.</p>
+                        <p>Powered by <code>media_kit</code> hardware-accelerated playback pipeline. Enjoy low-latency
+                            playback of your FLAC, MP3, WAV, M4A, and AAC files without breaking a sweat.</p>
                     </div>
 
                     <!-- Feature 2 -->
                     <div class="feature-card scroll-reveal" id="feat-palette">
                         <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.02102 18.0617 5.8398 17.35 6.83 17.35H7.5C8.88071 17.35 10 16.2307 10 14.85V13.5C10 12.3954 9.10457 11.5 8 11.5H6.5C5.39543 11.5 4.5 10.6046 4.5 9.5V9C4.5 5.96243 7.21895 3.5 10.5 3.5C14.0899 3.5 17 6.41015 17 10C17 11.933 15.433 13.5 13.5 13.5H13C11.8954 13.5 11 14.3954 11 15.5V17.5C11 18.8807 12.1193 20 13.5 20H14.5C15.6046 20 16.5 20.8954 16.5 22C16.5 22 12.5 22 12 22Z"/></svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.02102 18.0617 5.8398 17.35 6.83 17.35H7.5C8.88071 17.35 10 16.2307 10 14.85V13.5C10 12.3954 9.10457 11.5 8 11.5H6.5C5.39543 11.5 4.5 10.6046 4.5 9.5V9C4.5 5.96243 7.21895 3.5 10.5 3.5C14.0899 3.5 17 6.41015 17 10C17 11.933 15.433 13.5 13.5 13.5H13C11.8954 13.5 11 14.3954 11 15.5V17.5C11 18.8807 12.1193 20 13.5 20H14.5C15.6046 20 16.5 20.8954 16.5 22C16.5 22 12.5 22 12 22Z" />
+                            </svg>
                         </div>
                         <h3>Dynamically Personal UI</h3>
-                        <p>No more static players. SonicSnap analyzes your track's album art cover in real-time to generate a fluid matching color palette that styles the entire interface uniquely.</p>
+                        <p>No more static players. SonicSnap analyzes your track's album art cover in real-time to
+                            generate a fluid matching color palette that styles the entire interface uniquely.</p>
                     </div>
 
                     <!-- Feature 3 -->
                     <div class="feature-card scroll-reveal" id="feat-eq">
                         <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 12h6"/></svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 12h6" />
+                            </svg>
                         </div>
                         <h3>Dynamic Acoustics</h3>
-                        <p>Control your sound signature with our precision built-in multi-band Equalizer. Restores your customized presets automatically, ensuring your earphones always sound their best.</p>
+                        <p>Control your sound signature with our precision built-in multi-band Equalizer. Restores your
+                            customized presets automatically, ensuring your earphones always sound their best.</p>
                     </div>
 
                     <!-- Feature 4 -->
                     <div class="feature-card scroll-reveal" id="feat-tws">
                         <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3"/></svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M3 18v-6a9 9 0 0 1 18 0v6M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3" />
+                            </svg>
                         </div>
                         <h3>TWS & Smart Playback</h3>
-                        <p>Fully optimized for Bluetooth earphones and TWS buds. Connect and play immediately — SonicSnap recovers audio states seamlessly, even from cold starts.</p>
+                        <p>Fully optimized for Bluetooth earphones and TWS buds. Connect and play immediately —
+                            SonicSnap recovers audio states seamlessly, even from cold starts.</p>
                     </div>
                 </div>
             </div>
@@ -172,8 +206,9 @@
                 <div class="demo-grid">
                     <div class="demo-visual-panel">
                         <h3 class="panel-title">🎛️ Interactive Audio Sandbox</h3>
-                        <p class="panel-desc">Fine-tune the custom Equalizer bands and interact with the real-time audio visualization waveform simulator below.</p>
-                        
+                        <p class="panel-desc">Fine-tune the custom Equalizer bands and interact with the real-time audio
+                            visualization waveform simulator below.</p>
+
                         <!-- Visualizer Area -->
                         <div class="visualizer-container">
                             <canvas id="visualizer-canvas" class="visualizer-canvas"></canvas>
@@ -211,8 +246,10 @@
                             </div>
                         </div>
                         <div class="eq-presets">
-                            <button class="btn btn-preset active" data-preset="bassboost" id="btn-preset-bass">Bass Boost</button>
-                            <button class="btn btn-preset" data-preset="vocal" id="btn-preset-vocal">Vocal Clear</button>
+                            <button class="btn btn-preset active" data-preset="bassboost" id="btn-preset-bass">Bass
+                                Boost</button>
+                            <button class="btn btn-preset" data-preset="vocal" id="btn-preset-vocal">Vocal
+                                Clear</button>
                             <button class="btn btn-preset" data-preset="flat" id="btn-preset-flat">Flat</button>
                         </div>
                     </div>
@@ -225,7 +262,8 @@
                                 <span class="dot green"></span>
                                 <span class="title">Visualizer Screensaver</span>
                             </div>
-                            <img src="assets/landing/visualizer_demo.png" alt="Sleek wave visualizer UI" class="panel-mockup-img" id="mockup-vis-img">
+                            <img src="assets/visualizer_demo.png" alt="Sleek wave visualizer UI"
+                                class="panel-mockup-img" id="mockup-vis-img">
                         </div>
                         <div class="mockup-card">
                             <div class="mockup-card-header">
@@ -234,7 +272,8 @@
                                 <span class="dot green"></span>
                                 <span class="title">Multi-band EQ Controls</span>
                             </div>
-                            <img src="assets/landing/equalizer_screen.png" alt="Multi-band audio settings" class="panel-mockup-img" id="mockup-eq-img">
+                            <img src="assets/equalizer_screen.png" alt="Multi-band audio settings"
+                                class="panel-mockup-img" id="mockup-eq-img">
                         </div>
                     </div>
                 </div>
@@ -252,15 +291,18 @@
                 <div class="specs-grid">
                     <div class="spec-card">
                         <h4>Database</h4>
-                        <p>Offline-first Local Hive DB load rates. Access folders, files, tags, and custom playlists instantaneously with zero delay.</p>
+                        <p>Offline-first Local Hive DB load rates. Access folders, files, tags, and custom playlists
+                            instantaneously with zero delay.</p>
                     </div>
                     <div class="spec-card">
                         <h4>System Controls</h4>
-                        <p>Complete integration with Windows System Media Transport Controls (SMTC) and native playback actions.</p>
+                        <p>Complete integration with Windows System Media Transport Controls (SMTC) and native playback
+                            actions.</p>
                     </div>
                     <div class="spec-card">
                         <h4>Integrations</h4>
-                        <p>Home Screen Widgets (Android), Quick Notification tiles, and native system file associations for seamless multi-device handling.</p>
+                        <p>Home Screen Widgets (Android), Quick Notification tiles, and native system file associations
+                            for seamless multi-device handling.</p>
                     </div>
                 </div>
             </div>
@@ -271,36 +313,43 @@
             <div class="download-bg-glow"></div>
             <div class="container text-center">
                 <h2 class="section-title" id="download-title">Experience Uncompromised Sound</h2>
-                <p class="section-subtitle">Get SonicSnap today on your preferred device. Fully open-source and free.</p>
-                
+                <p class="section-subtitle">Get SonicSnap today on your preferred device. Fully open-source and free.
+                </p>
+
                 <div class="download-badges">
                     <a href="#" class="download-btn" id="dl-android">
                         <div class="dl-btn-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 8c.46 0 .91-.05 1.34-.14L20 10.5c.39.39.39 1.02 0 1.41l-1.5 1.5c-.39.39-1.02.39-1.41 0l-2.64-2.64C15.4 11.23 16.42 12 17.5 12c2.48 0 4.5-2.02 4.5-4.5S19.98 3 17.5 3c-1.08 0-2.1.77-3.05 1.77L11.8 2.13C11.41 1.74 10.78 1.74 10.39 2.13L8.89 3.63c-.39.39-.39 1.02 0 1.41l2.64 2.64c-.95.46-1.97-.31-3.05-.31c-2.48 0-4.5 2.02-4.5 4.5S5.98 16.5 8.5 16.5c1.08 0 2.1-.77 3.05-1.77l2.64 2.64c.39.39 1.02.39 1.41 0l1.5-1.5c.39-.39.39-1.02 0-1.41l-2.64-2.64c.95-.46 1.97.31 3.05.31c2.48 0 4.5-2.02 4.5-4.5S19.98 8 17.5 8zM8.5 13.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5z"/></svg>
+                            <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27" />
+                            </svg>
                         </div>
                         <div class="dl-btn-text">
-                            <span class="dl-desc">Download APK</span>
-                            <span class="dl-platform">Android Installer</span>
+                            <span class="dl-desc">Android</span>
+                            <span class="dl-platform">Google PlayStore</span>
                         </div>
                     </a>
-                    
+
                     <a href="#" class="download-btn" id="dl-windows">
                         <div class="dl-btn-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.45H0V3.449zM0 12.45h9.75v9.45L0 20.551v-8.1zM10.8 1.95L24 0v11.55H10.8V1.95zM10.8 12.45H24v11.55l-13.2-1.95v-9.6z"/></svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M0 3.449L9.75 2.1v9.45H0V3.449zM0 12.45h9.75v9.45L0 20.551v-8.1zM10.8 1.95L24 0v11.55H10.8V1.95zM10.8 12.45H24v11.55l-13.2-1.95v-9.6z" />
+                            </svg>
                         </div>
                         <div class="dl-btn-text">
-                            <span class="dl-desc">Download for</span>
-                            <span class="dl-platform">Windows x64</span>
+                            <span class="dl-desc">Windows</span>
+                            <span class="dl-platform">Microsoft Store</span>
                         </div>
                     </a>
                 </div>
 
-                <div class="source-link-container">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="source-link" id="footer-source-link">
+                <!-- <div class="source-link-container">
+                    <a href="https://github.com/bbvmlabs/SonicSnap-music" target="_blank" rel="noopener noreferrer" class="source-link" id="footer-source-link">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                         <span>Explore the GitHub Repository</span>
                     </a>
-                </div>
+                </div> -->
             </div>
         </section>
     </main>
@@ -308,11 +357,17 @@
     <!-- Footer -->
     <footer class="footer" id="main-footer">
         <div class="container footer-container">
-            <p class="copyright-text" id="footer-copyright">&copy; 2026 SonicSnap Music. Open source under the MIT License.</p>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <img src="assets/bbvmlabs.svg" alt="SonicSnap Logo" class="footer-logo" style="height: 38px;">
+                <p class="copyright-text" id="footer-copyright">&copy; <span class="current-year"></span> BBVMLABS/ SonicSnap </p>
+                <script> document.querySelector(".current-year").textContent = new Date().getFullYear(); </script>
+            </div>
             <div class="footer-links" id="footer-link-group">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" id="flink-github">GitHub</a>
-                <a href="#" id="flink-privacy">Privacy</a>
-                <a href="#" id="flink-terms">Terms</a>
+                <a href="https://bbvmlabs.top" id="flink-bbvmlabes">BBVMLABS</a>
+                <a href="https://github.com/bbvmlabs/SonicSnap-music" target="_blank" rel="noopener noreferrer"
+                    id="flink-github">GitHub</a>
+                <a href="privacy/" id="flink-privacy">Privacy</a>
+                <a href="terms/" id="flink-terms">Terms</a>
             </div>
         </div>
     </footer>
@@ -320,4 +375,5 @@
     <!-- App Script -->
     <script src="app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonicSnap - Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for SonicSnap, an offline music player designed with privacy first.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../index.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/icon.png">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="navbar">
+        <div class="header-container">
+            <a href="../index.html" class="logo-link" id="logo-home">
+                <img src="../assets/logo.png" alt="SonicSnap Logo" class="logo-img" style="height: 38px; display: block;">
+            </a>
+            <nav class="nav-menu" id="nav-links">
+                <a href="../index.html#features" class="nav-item" id="nav-lnk-features">Features</a>
+                <a href="../index.html#demo" class="nav-item" id="nav-lnk-demo">Interactive Demo</a>
+                <a href="../index.html#specs" class="nav-item" id="nav-lnk-specs">Tech Specs</a>
+            </nav>
+            <div class="header-actions">
+                <a href="../index.html#download" class="btn btn-primary btn-sm" id="btn-header-download">Download</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="legal-section">
+            <div class="container">
+                <div class="legal-card animate-fade-in">
+                    <h1 class="legal-title gradient-text">Privacy Policy</h1>
+                    <div class="legal-meta">Effective Date: June 5, 2026</div>
+                    
+                    <div class="legal-content">
+                        <h2>1. Introduction</h2>
+                        <p>Welcome to SonicSnap ("we," "our," or "us"). SonicSnap is an offline music player application that respects your privacy. This Privacy Policy explains how we handle your data when you use our application and its cloud synchronization features.</p>
+
+                        <h2>2. Information We Collect</h2>
+                        <p>SonicSnap is built with a privacy-first approach. We collect minimal data required to ensure functionality:</p>
+                        <ul>
+                            <li><strong>No Account Registration:</strong> You do not need to create an account with us to use SonicSnap.</li>
+                            <li><strong>Local Application Data:</strong> We store your local playback settings, audio preferences (such as equalizer bands), and cached file metadata strictly on your device.</li>
+                            <li><strong>Google Drive Integration:</strong> If you choose to connect your Google account, SonicSnap utilizes third-party cloud APIs to access files in your personal Google Drive account. We do not transmit this data to external servers; it is processed purely on your device.</li>
+                        </ul>
+
+                        <h2>3. Google API Scopes and Data Usage</h2>
+                        <p>By authenticating your Google Drive account within SonicSnap, the application requests the minimal necessary permission scopes to:</p>
+                        <ul>
+                            <li>Read audio files and metadata explicitly selected or shared by you.</li>
+                            <li>Read binary files for real-time local streaming and audio visualization (FFT processing).</li>
+                        </ul>
+                        <p>SonicSnap strictly abides by the Google API Services User Data Policy, including the Limited Use requirements. Your Google Drive data is never collected, transferred, stored, or processed on any servers owned by us, nor is it shared with third-party entities.</p>
+
+                        <h2>4. Third-Party Services</h2>
+                        <p>Our application utilizes local playback and rendering engines (including media_kit powered by libmpv) to process audio streams. These libraries operate entirely client-side and do not track or collect your personal data.</p>
+
+                        <h2>5. Data Security and Caching</h2>
+                        <p>To maintain performance and visual fidelity, SonicSnap may temporarily cache fragments of cloud-stored media files locally in your device's temporary storage directory. This cached data is securely locked within the sandboxed application environment and is erased automatically or upon manual app cache clearing.</p>
+
+                        <h2>6. Children’s Privacy</h2>
+                        <p>SonicSnap does not knowingly collect personal information from children. Our app functions purely as a local utility player for files managed entirely by the end user.</p>
+
+                        <h2>7. Changes to This Privacy Policy</h2>
+                        <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes to this Privacy Policy are effective when they are posted within the app or on our official distribution channels.</p>
+
+                        <h2>8. Contact Us</h2>
+                        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <a href="mailto:bb.vm.labs@gmail.com" style="color: var(--primary-color);">bb.vm.labs@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="main-footer">
+        <div class="container footer-container">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <img src="../assets/bbvmlabs.svg" alt="SonicSnap Logo" class="footer-logo" style="height: 38px;">
+                <p class="copyright-text" id="footer-copyright">&copy; <span class="current-year"></span> BBVMLABS/ SonicSnap </p>
+                <script> document.querySelector(".current-year").textContent = new Date().getFullYear(); </script>
+            </div>
+            <div class="footer-links" id="footer-link-group">
+                <a href="https://bbvmlabs.top" id="flink-bbvmlabes">BBVMLABS</a>
+                <a href="https://github.com/bbvmlabs/SonicSnap-music" target="_blank" rel="noopener noreferrer"
+                    id="flink-github">GitHub</a>
+                <a href="../privacy/" id="flink-privacy">Privacy</a>
+                <a href="../terms/" id="flink-terms">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Script -->
+    <script src="../app.js"></script>
+</body>
+
+</html>
